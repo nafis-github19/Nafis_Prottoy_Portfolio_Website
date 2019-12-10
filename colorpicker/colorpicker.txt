@@ -1,0 +1,18 @@
+facebook : 	new: #44619d
+		#46a
+		steelblue
+		hsl(220,39,44)
+		rgb(68,97,157)
+
+
+instagram:      HEX COLOR: #E1306C;
+		RGB: (225,48,108)
+		CMYK: (6,95,36,0)
+
+
+linkedIn:	HEX COLOR: #2867B2;
+		RGB: (40,103,178)
+		CMYK: (87,61,0,0)
+
+
+GitHub: 	

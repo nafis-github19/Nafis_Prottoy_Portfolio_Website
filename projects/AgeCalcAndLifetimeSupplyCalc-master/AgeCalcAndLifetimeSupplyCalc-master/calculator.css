@@ -1,0 +1,50 @@
+
+.body_outline{
+
+  padding: 100px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #ff9f1a;
+}
+
+
+h1:hover {
+color: red;
+
+}
+
+
+
+
+  h3:hover {
+  color: red;
+
+}
+
+
+
+
+
+.age_calc{
+  background-color: #7d5fff;
+  padding: 10px 0 20px 20px;
+  border: 2px solid black;
+
+}
+
+.lifetime{
+  background-color: #32ff7e;
+    padding: 10px 0 20px 20px;
+      border: 2px solid black;
+
+
+}
+
+#calculate_submit:hover{
+  color:red;
+  
+}
+
+#calculate_supply:hover{
+  color:red;
+}

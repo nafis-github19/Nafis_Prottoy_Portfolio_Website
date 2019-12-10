@@ -1,0 +1,63 @@
+
+.space{
+    margin-bottom: 100px;
+}
+.bg-card{
+    width: 800px;
+    background-color: green;
+    height: 400px;
+    border-radius: 30px;
+    margin: auto;
+    
+}
+
+#tdlogo{
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#chip{
+    width: 100px;
+    margin-left: 40px;
+}
+
+.form-body{
+    margin-left: 40px;
+}
+
+
+
+.bg-signature{
+    display: inline-block;
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    margin-left: 40px;
+    
+}
+
+#visalogo{
+    clear: both;
+    width: 150px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.magnetic-ribbon{
+    clear: both;
+    width: 800px;
+    height: 50px;
+    background-color: black;
+    
+    
+}
+
+button{
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: 400;
+}

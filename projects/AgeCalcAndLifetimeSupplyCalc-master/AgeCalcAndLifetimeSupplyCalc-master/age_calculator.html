@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Age Calulator & Lifetime Supply</title>
+    <link rel="stylesheet" href="calculator.css">
+  </head>
+  <body>
+    <div class="body_outline">
+
+
+    <center>
+    <h1>Age Calculator & Lifetime Supply</h1>
+
+    <div class="age_calc">
+
+    <h3>Age Calculator</h3>
+
+    <form class="age_form">
+
+      <label for="birthYear">Enter Your Year of birth: </label>
+      <input id="birthYear" type="number" name="birthYear" placeholder="Year of Birth"><br><br>
+
+      <label for="futureYear">Enter a future Year</label>
+      <input id="futureYear" type="number" name="futureYear" placeholder="Enter Future Year"><br><br>
+
+      <input id="calculate_submit" type="submit" name="submit_button" value="Calculate Age" onclick="calculateAge();">
+
+    </form>
+      </div>
+
+      <br><br>
+
+    <div class="lifetime">
+
+    <h3>Lifetime Snack Supply Calculator</h3>
+
+    <form class="supply_form">
+
+      <label for="currentAge">What is your Current Age?</label>
+      <input id="currentAge" type="number" name="currentAge" placeholder="Current Age"><br><br>
+
+      <label for="maxAge">What is the maximum age you are going to live till? </label>
+      <input id="maxAge" type="number" name="maxAge" placeholder="Maximum Age"><br><br>
+
+      <label for="snack_estimate">Estimated Amount of Snack to be consumed per day?</label>
+      <input id="snack_estimate" type="number" name="snack_estimate" placeholder="how many per day?"><br><br>
+
+      <label for="price"> Price per piece?</label>
+      <input id="price" type="number" name="price" placeholder="price in $"><br><br>
+
+      <label for="name">Name of your snack</label>
+      <input id="name" type="text" name="name" placeholder="name"><br><br>
+
+      <input id="calculate_supply" type="button" name="lifetime_button" value="Calculate Lifetime Supply" onclick="calculateLifetimeSupply();">
+
+    </form>
+
+    </div>
+    </center>
+    </div>
+
+    <script type="text/javascript" src="calculator.js"></script>
+
+  </body>
+</html>

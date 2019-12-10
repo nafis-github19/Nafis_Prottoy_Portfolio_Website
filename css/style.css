@@ -1,0 +1,634 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+html{
+
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	
+}
+
+/* HEADER AND NAVIGATION*/
+header{
+  width: 1200px;
+  background-color: pink;
+  margin: auto;
+  height:50px;;
+}
+
+.logo{
+  width: 300px;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  line-height: 50px;
+}
+.name{
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+}
+.name h1{
+  line-height: 45px;
+}
+
+.navigation{
+  width: 600px;
+
+  float: right;
+	
+  
+
+}
+
+.navigation ul{
+  list-style: none;
+  text-align: center;
+  
+
+}
+
+.navigation ul li{
+  display: inline;
+  margin: 15px;
+  line-height: 45px;
+	font-size: 100%;
+	
+
+
+}
+
+
+.navigation ul li a:hover{
+	
+	border-bottom: 2px solid orange;
+	padding-bottom: 5px;
+	
+	
+}
+
+/*
+.navigation ul li a:{
+	background-color: orangered;
+}
+*/
+
+header a{
+  text-decoration:none;
+  color: white;
+}
+
+#contact{
+  border: 2px solid black;
+  background-color: green;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#contact:hover{
+	background-color: orange;
+}
+
+#contact a:hover{
+	
+	border-bottom: none;
+	
+}
+.container{
+	width: 1200px;
+	background-color:#858282;
+	margin: auto;
+}
+
+
+/* Hero and Section 1*/
+
+.section-one{
+  width: 1200px;
+  margin: auto;
+  background-image: url("img/nafis.gif");
+  background-position:center;
+  background-size: 1100px;
+  background-repeat: no-repeat;
+  
+  height: 100vh;
+}
+
+.hero{
+	width: 600px;
+
+ 
+	background-color: lightgreen;
+	opacity: 0.6;
+	
+	position: relative;
+	top: 30%;
+	left: 10%;
+	
+	font-size: 180%;
+	padding: 20px;
+	text-align: center;
+	
+}
+
+
+
+.hero h1{
+	color: white;
+	
+	
+}
+
+.hero-content{
+	
+	z-index: 2;
+}
+
+.space{
+	padding-top: 10px;
+
+}
+
+.space a{
+	color: blue;
+	text-decoration: none;
+	padding: 10px;
+
+}
+
+.space a:hover{
+	color: orange;
+}
+
+/*SECTION QUOTES*/
+
+.section-quotes{
+  width: 1200px;
+  margin: auto;
+  background-color: lightgrey;
+  
+  background-size: cover;
+  padding: 50px;
+  height: 50vh;
+	
+}
+
+.quotes p{
+	padding-top: 50px;
+}
+
+
+/*SECTION2 AND ABOUT*/
+
+.section-two{
+  width: 1200px;
+  margin: auto;
+  background-color: lightcoral;
+  background-size: cover;
+  padding: 50px;
+  height: 50vh;
+	
+}
+
+.detail{
+	padding: 20px;
+	font-family: "Lato";
+	line-height: 30px;
+}
+
+/*SECTION3 AND EXPERIENCE*/
+
+.section-three{
+  width: 1200px;
+  margin: auto;
+  background-color: lightgrey;
+  background-size: cover;
+  padding: 50px;
+  height: 50vh;
+	
+}
+
+
+
+/* Prog Quotes*/
+
+#prog-quotes{
+	font-size: 150%;
+	text-align: center;
+	color: orangered;
+	padding: 20px;
+	padding-top: 50px;
+}
+
+/*Parallax Effects*/
+
+.section-one, .pimg-code, .pimg-ny, .design{
+	position: relative;
+	background-position: center;
+	/*parallax*/
+	background-attachment: fixed;
+}
+
+.design{
+	background-image: url(img/design.jpg);
+	width: 1200px;
+  	margin: auto;
+  	height: 50vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat:no-repeat;
+	
+}
+
+.pimg-code{
+	background-image: url(img/codes-coding-programming-270366.jpg);
+	width: 1200px;
+  	margin: auto;
+  	height: 50vh;
+	background-size: cover;
+	
+}
+
+.pimg-ny{
+	background-image: url(img/action-architecture-billboard-1486222.jpg);
+	width: 1200px;
+  	margin: auto;
+  	height: 50vh;
+	background-size: cover;
+	
+}
+
+
+/*  Portfolio page*/
+
+.page-head{
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+
+.project-1{
+	width: 1200px;
+	padding: 20px; 
+	border-bottom: 5px dashed white;
+}
+
+.temperature{
+	width: 500px;
+	padding: 30px;
+	float: left;
+	
+}
+
+.desc{
+	width: 500px;
+	padding: 30px;
+	float: right;
+	
+}
+
+.desc h3{
+	padding-top: 20px;
+}
+
+.desc p{
+	margin-top: 20px;
+}
+
+
+.project-2{
+	clear: both;
+	width: 1200px;
+	padding: 20px;
+	border-bottom: 5px dashed white;
+	
+}
+
+
+
+.desc2{
+	width: 500px;
+	padding: 30px;
+	float: left;
+	
+}
+
+.desc2 h3{
+	padding-top: 20px;
+}
+.desc2 p{
+	margin-top: 20px;
+}
+
+
+
+.calculator{
+	width: 500px;
+	padding: 30px;
+	float: right;
+}
+
+.project-3{
+	clear: both;
+	width: 1200px;
+	padding: 20px; 
+	border-bottom: 5px dashed white;
+}
+
+.register{
+	width: 500px;
+	padding: 30px;
+	float: left;
+}
+
+.desc3{
+	width: 500px;
+	padding: 30px;
+	float: right;
+	
+}
+
+.desc3 h3{
+	padding-top: 20px;
+}
+.desc3 p{
+	margin-top: 20px;
+}
+.project-4{
+	clear: both;
+	width: 1200px;
+	padding: 20px;
+	border-bottom: 5px dashed white;
+	
+}
+
+
+
+.desc4{
+	width: 500px;
+	padding: 30px;
+	float: left;
+	
+}
+
+.desc4 h3{
+	padding-top: 20px;
+}
+
+.desc4 p{
+	margin-top: 20px;
+}
+
+.creditcard{
+	width: 500px;
+	padding: 30px;
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+.portfolio img{
+	width: 400px;
+	opacity: 0.6;
+	transition: 0.5s;
+}
+
+.portfolio img:hover{
+	opacity: 1;
+	transform: scale(1.2)
+}
+
+/* Contact Page*/
+
+.form-bg{
+	width: 600px;
+	background-color: darkgreen;
+	margin: auto;
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	
+}
+#lname{
+	border-radius: 10px;
+	position: relative;
+	left: 300px;
+	padding-left: 5px;
+	
+	
+}
+#fname{
+	border-radius: 10px;
+	position: relative;
+	left: 297px;
+	padding-left: 5px;
+	
+	
+}
+#email{
+	border-radius: 10px;
+	position: relative;
+	left: 275px;
+	padding-left: 5px;
+	
+	
+}
+
+
+#comments{
+	border-radius: 20px;
+	padding: 5px;
+	
+}
+
+
+.meme{
+	background-image: url("img/giphy.gif");
+	
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#btn-submit{
+	font-size:  20px;
+	padding: 5px;
+	
+}
+
+
+
+/*Resume Page*/
+
+
+#resume-head{
+	padding-bottom: 20px;
+}
+
+
+/* 	CERTIFICATE PAGE 	*/
+
+
+.col-one{
+	width: 300px;
+	float: left;
+	margin: auto;
+	padding: 20px;
+	
+	margin-left:80px;
+	text-align: justify;
+	
+	
+}
+
+.col-one img{
+	width: 200px;
+	margin: auto;
+	margin-left: 30px;
+	
+	
+}
+
+.col-desc{
+	
+	padding: 20px;
+}
+
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+
+.cert a img:hover{
+	 /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+
+
+
+/* CLEAR FIX*/
+
+	
+
+
+/*FOOTER AND ICONS TO SOCIAL MEDIA*/
+
+footer{
+	clear: both;
+  width: 1200px;
+  margin: auto;
+  background-color: lightgreen;
+  height: 20vh;
+  padding: 50px;
+	
+	
+}
+
+footer .soc-media{
+	
+	width: 800px;
+	margin: auto;
+	margin-top: 30px;
+	
+	
+	
+	
+	
+}
+
+footer .soc-media .icon a{
+	width: 100px;
+	font-size: 40px;
+	float: left;
+	margin-left: 80px;
+	color: black;
+	
+	
+	
+}
+
+
+
+#fb:hover{
+	color: #44619d;
+	
+}
+
+#ig:hover{
+	color: #E1306C;
+	
+}
+
+#linkedin:hover{
+	color: #2867B2;
+	
+}
+
+#git:hover{
+	color: #f1c40f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

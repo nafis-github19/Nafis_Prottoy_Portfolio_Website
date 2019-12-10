@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Temp Calculator</title>
+</head>
+
+<body>
+<h1>Temperature Calculator</h1>
+<h3>Convert for C to F or vice-versa</h3>
+<form>
+	<label for="temp">Temp Number in C (for C to F)</label>
+	<input id="temp" type="number" name="temp" value=""> <br>
+	<br>
+	<input type="button" name="convert" value="Convert" onClick="calculateCtoF();">
+	<br>
+	<br>
+	
+	
+	<label for="tempF">Temp Number in F (for F to C) </label>
+	<input id="tempF" type="number" name="tempF" value=""><br><br>
+	
+	<input type="button" name="convert" value="Convert" onClick="calculateFtoC();">
+	
+</form>
+<script type="text/javascript">
+	
+	
+	function calculateCtoF(){
+
+		var jCtoF = document.getElementById("temp").value;
+
+		var ctoF = (jCtoF * (9/5))+ 32;
+
+		document.write(ctoF);
+
+		return ctoF;
+	}
+
+
+	function calculateFtoC(){
+
+		var jFtoC = document.getElementById("tempF").value;
+
+		var ftoC = (jFtoC - 32) * (5/9);
+
+		document.write(ftoC);
+
+		return ftoC;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	</script>
+<!--<script type="text/javascript" src="temp.js"></script>-->
+</body>
+</html>

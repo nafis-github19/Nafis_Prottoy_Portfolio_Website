@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Berny's Snack Shop</title>
+    <link rel="stylesheet" href="register.css">
+  </head>
+  <body>
+    <div class="container">
+
+
+    <h1>Welcome to Berny's Candy Shop</h1>
+      <br>
+    <table>
+      <tr>
+        <th>Items</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Images</th>
+      </tr>
+      <tr>
+        <td><label for="mars">Mars</label></td>
+        <td>$ 3</td>
+        <td><input id="mars" type="number" name="mars"  ></td>
+        <td><img src="images/mars.png" alt=""></td>
+      </tr>
+      <tr>
+        <td><label for="snickers">Snickers</label></td>
+        <td>$ 4</td>
+        <td><input id="snickers" type="number" name="snickers"  ></td>
+        <td><img src="images/snickers.png" alt=""></td>
+      </tr>
+      <tr>
+        <td><label for="reeses">Reeses</label></td>
+        <td>$ 3.5</td>
+        <td><input id="reeses" type="number" name="reeses" ></td>
+        <td><img src="images/reeses.png" alt=""></td>
+      </tr>
+      <tr>
+        <td><label for="kitkat">Kitkat</label></td>
+        <td>$ 5</td>
+        <td><input id="kitkat" type="number"  name="kitkat"></td>
+        <td><img src="images/kitkat.jpg" alt=""></td>
+      </tr>
+
+    </table>
+
+    <br>
+
+      <button type="button" name="button" onclick="calcBill();">Checkout</button>
+
+    </div>
+
+    <script type="text/javascript" src="register.js">
+
+    </script>
+  </body>
+</html>

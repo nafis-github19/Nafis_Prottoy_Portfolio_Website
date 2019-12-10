@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Credit Card Validator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="space">
+        <center><h1>Credit Card Validator</h1></center>
+
+        <div class="bg-card">
+
+            <img id="tdlogo" src="tdlogo.png" alt="tdbank logo">
+            <br><br>
+            <img id="chip" src="chip.jpg" alt="chip"> 
+            
+            <label for="credit-card-no">Card No.</label>
+            <input id="card-no" name="credit-card-no" type="number">
+
+                <br> <br>
+            <div class="form-body">
+                <label for="firstName">First Name</label>
+                <input id="firstName" name="firstName" type="text">
+
+                <label for="lastName">Last Name</label>
+                <input id="lastName" name="lastName" type="text">
+
+                <label for="expiry">Expiration Date</label>
+                <input id="expdate" name="expiry" type="date">
+            </div>
+
+            <img id="visalogo"src="visalogo.png" alt="visa logo">
+        </div>
+
+        <br><br><br><br>
+
+        <div class="bg-card">
+
+                <img id="tdlogo" src="tdlogo.png" alt="tdbank logo">
+                <br><br>
+               
+                
+                <div class="bg-signature"><p>sign</p></div>
+
+                <label for="cvv">CVV No.</label>
+                <input id="cvv" type="number" name="cvv">
+    
+                <img id="visalogo"src="visalogo.png" alt="visa logo">
+                <br><br><br>
+                <div class="magnetic-ribbon"></div>
+            </div>
+                <br><br><br>
+          <center><button type="button" onclick="creditValidator()">Validate</button></center>  
+        </div>
+
+
+        <script type="text/javascript" src="validator.js"></script>
+    </body>
+</html>

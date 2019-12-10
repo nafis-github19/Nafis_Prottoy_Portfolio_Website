@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fortune Teller</title>
+    <link rel="stylesheet" href="fortuneTeller.css">
+  </head>
+  <body>
+
+    <center>
+    <div class="back-color">
+    <h1>Fortune Teller</h1>
+    <h3>Welcome to the Fortune Teller Website!</h3>
+    <img src="pic.jpg" alt="lady">
+    <p>This website will tell you about your future. Please input your details to know about your future.</p>
+    <form name="form">
+      <label for="name">Name</label>
+      <input id= "name" type="text" name="name" value=""><br><br>
+
+      <label for="age">Age</label>
+      <input id= "age" type="number" name="age" value=""><br><br>
+
+      <label for="job">Job</label>
+      <input id= "job" type="text" name="job" value=""><br><br>
+
+      <label for="years">How many years in future?</label>
+      <input id= "years" type="number" name="years" value=""><br><br>
+
+      <input type="submit" name="submit" value="SEE MY FUTURE" onclick="tellFortune();">
+
+    </form>
+      </div>
+  </center>
+    <script type="text/javascript" src="fortuneTeller.js">
+
+    </script>
+  </body>
+</html>

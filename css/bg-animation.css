@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+
+	background-image: url(img/bg-gif.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+
+main{
+	color: white;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+
+.bg-animation{
+
+	position: absolute;
+	left: 35%;
+	top: 30%;
+	text-align: center;
+
+
+}
+.enter-web{
+	background-color: orange;
+}
+.cta{
+	margin-right: 10px;
+}
+.ctar{
+	margin-left: 10px;
+}
+
+.bg-animation a{
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+
+
+	padding: 10px;
+}
+
+
+.bg-animation a:hover{
+	border: 2px solid orange;
+	border-radius: 50%;
+	background-color: orange;
+
+
+}
+
+
+input{
+
+	font-size: 30px;
+	border-radius: 50px;
+	padding: 10px;
+}
+
+
+.img-logo img{
+	border-radius: 50%;
+}
